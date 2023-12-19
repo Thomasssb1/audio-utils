@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "reddit_2_video",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generated": "2023-12-16T17:34:57.400997Z",
+  "generator": "pub",
+  "generatorVersion": "3.1.5"
+}
