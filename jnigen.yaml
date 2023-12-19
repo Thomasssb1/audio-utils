@@ -1,0 +1,10 @@
+output:
+  bindings_type: dart_only
+  dart:
+    path: lib/audio_utils/
+    structure: package_structure
+
+source_path:
+  - "src/main/java/"
+classes:
+  - "com.thomasb.audio_utils.Command"

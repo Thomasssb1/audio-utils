@@ -1,0 +1,50 @@
+FINE 2023-12-19 13:01:47.526735: Set log level: INFO
+INFO 2023-12-19 13:01:47.546751: ApiSummarizer.jar exists. Skipping build..
+FINE 2023-12-19 13:01:47.547760: Set log level: INFO
+INFO 2023-12-19 13:01:47.548368: execute java -jar .dart_tool/jnigen/ApiSummarizer.jar -s src/main/java/ com.thomasb.audio_utils.Command
+INFO 2023-12-19 13:01:47.993088: Parsing inputs took 445 ms
+==== Begin summarizer logs ====
+Loading source file src/main/java/com/thomasb/audio_utils/Command.java...
+Constructing Javadoc information...
+Dec 19, 2023 1:01:47 PM com.github.dart_lang.jnigen.apisummarizer.util.Log log
+INFO: Initializing doclet
+Dec 19, 2023 1:01:47 PM com.github.dart_lang.jnigen.apisummarizer.util.Log log
+INFO: Visiting class: com.thomasb.audio_utils.Command, []
+Dec 19, 2023 1:01:47 PM com.github.dart_lang.jnigen.apisummarizer.util.Log log
+INFO: Writing JSON for 1 classes
+
+==== End summarizer logs ====
+FINE 2023-12-19 13:01:47.997425: Excluded field com.thomasb.audio_utils.Command#args
+FINE 2023-12-19 13:01:47.997458: Excluded field com.thomasb.audio_utils.Command#options
+FINEST 2023-12-19 13:01:48.002103: Parsing yaml file in url file:///Users/thoma/.pub-cache/hosted/pub.dev/jni-0.7.2/lib/jni_symbols.yaml.
+FINEST 2023-12-19 13:01:48.009124: Imported java.lang.Object successfully.
+FINEST 2023-12-19 13:01:48.009156: Imported java.lang.String successfully.
+FINEST 2023-12-19 13:01:48.009170: Imported java.lang.Number successfully.
+FINEST 2023-12-19 13:01:48.009183: Imported java.lang.Byte successfully.
+FINEST 2023-12-19 13:01:48.009195: Imported java.lang.Short successfully.
+FINEST 2023-12-19 13:01:48.009207: Imported java.lang.Integer successfully.
+FINEST 2023-12-19 13:01:48.009220: Imported java.lang.Long successfully.
+FINEST 2023-12-19 13:01:48.009232: Imported java.lang.Float successfully.
+FINEST 2023-12-19 13:01:48.009244: Imported java.lang.Double successfully.
+FINEST 2023-12-19 13:01:48.009256: Imported java.lang.Boolean successfully.
+FINEST 2023-12-19 13:01:48.009269: Imported java.lang.Character successfully.
+FINEST 2023-12-19 13:01:48.009284: Imported java.util.Set successfully.
+FINEST 2023-12-19 13:01:48.009296: Imported java.util.List successfully.
+FINEST 2023-12-19 13:01:48.009308: Imported java.util.Iterator successfully.
+FINEST 2023-12-19 13:01:48.009320: Imported java.util.Map successfully.
+FINEST 2023-12-19 13:01:48.009332: Imported java.nio.Buffer successfully.
+FINEST 2023-12-19 13:01:48.009344: Imported java.nio.ByteBuffer successfully.
+FINEST 2023-12-19 13:01:48.010032: Linking com.thomasb.audio_utils.Command.
+FINEST 2023-12-19 13:01:48.012140: Renaming com.thomasb.audio_utils.Command.
+FINE 2023-12-19 13:01:48.012764: Class com.thomasb.audio_utils.Command is named Command
+FINE 2023-12-19 13:01:48.013090: Method com.thomasb.audio_utils.Command#<init> is named new0
+FINE 2023-12-19 13:01:48.013131: Method com.thomasb.audio_utils.Command#setArgs is named setArgs
+FINE 2023-12-19 13:01:48.013212: Method com.thomasb.audio_utils.Command#parseArgs is named parseArgs
+FINE 2023-12-19 13:01:48.013226: Method com.thomasb.audio_utils.Command#storeParsedArgs is named storeParsedArgs
+FINE 2023-12-19 13:01:48.013303: Method com.thomasb.audio_utils.Command#getArg is named getArg
+INFO 2023-12-19 13:01:48.013842: Using dart root = lib/audio_utils/
+FINE 2023-12-19 13:01:48.014528: com.thomasb.audio_utils.Command -> lib/audio_utils/com/thomasb/audio_utils/Command.dart
+FINEST 2023-12-19 13:01:48.018874: Generated bindings for class com.thomasb.audio_utils.Command
+INFO 2023-12-19 13:01:48.020259: Running dart format...
+INFO 2023-12-19 13:01:48.218262: Completed.
+INFO 2023-12-19 13:01:48.218401: Completed

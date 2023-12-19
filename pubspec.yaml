@@ -1,11 +1,11 @@
-name: reddit_2_video
-description: A command-line application for generating a tiktok-style reddit commentary video.
+name: audio_utils
 version: 1.0.0
-repository: https://github.com/Thomasssb1/reddit-bot
 
 environment:
   sdk: ">=3.0.0"
 
 dev_dependencies:
+  jnigen: ^0.7.0
 
 dependencies:
+  jni: ^0.7.2
